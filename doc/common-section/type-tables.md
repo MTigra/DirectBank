@@ -706,7 +706,7 @@
 | PaymentOrder     | [PaymentOrderApp](#edo-PaymentOrderApp)           | выбор <br> [1] | Данные платежного ордера                                             |
 | BankOrder        | [BankOrderApp](#edo-BankOrderApp)                 | выбор <br> [1] | Данные банковского ордера                                            |
 | MemOrder         | [MemOrderApp](#edo-MemOrderApp)                   | выбор <br> [1] | Данные мемориального ордера                                          |
-| InnerDoc         | [OtherPaymentDataType](#edo-OtherPaymentDataType) | выбор <br> [1] | Данные внутр.банковского документа                                   |
+| InnerDoc         | [InnerDoc](#edo-Statement_Data_OperationInfo_PayDoc_InnerDoc) | выбор <br> [1] | Данные внутр.банковского документа           |
 | CashContribution | [CashContributionType](#edo-CashContributionType) | выбор <br> [1] | Данные объявления на взнос наличными                                 |
 | Check            | [CheckType](#edo-CheckType)                       | выбор <br> [1] | Данные денежного чека                                                |
 >>>>###### <a name="edo-Statement_Data_OperationInfo_PayDoc_InnerDoc"></a> InnerDoc:
